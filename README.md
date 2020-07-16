@@ -1,2 +1,2 @@
-# coursera-module-2
-module 2 assignment
+# coursera-HTML,CSS & JS Module solved
+
