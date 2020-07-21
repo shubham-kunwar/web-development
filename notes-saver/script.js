@@ -31,11 +31,11 @@ function showNotes(){
     let html=""
     notesObj.forEach(function(element,index){
     html +=`
-    <div class="card my-3 mx-2" style="width: 25rem;">
+    <div class="cardTxt my-3 mx-2" style="width: 25rem;">
         <div class="card-body">
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Note ${index+1}</label>
-                <textarea class="form-control" rows="3">${element}</textarea>
+                <p class="searchElement form-control" rows="3">${element}</p>
             </div>
             <button id="${index}" onclick="deleteNote(this.id)" class="btn btn-primary">Delete Notes</button>
         </div>
@@ -71,6 +71,20 @@ function deleteNote(index){
 
 let search=document.getElementById('searchTxt')
 search.addEventListener('input',function(){
+
     let inputVal=search.value
-    console.log("input event fired",inputVal)
+    // console.log("input event fired",inputVal)
+    let noteCard=document.getElementsByClassName("cardTxt")
+    Array.from(noteCard).forEach(function(element){
+
+        let cardTxt=element.getElementsByTagName('p')[0].innerText
+
+        if (cardTxt.includes(inputVal)){
+            element.style.display="block"
+        }   
+        else{
+            element.style.display="none"
+        }     
+
+    })
 })
