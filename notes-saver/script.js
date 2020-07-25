@@ -31,7 +31,7 @@ function showNotes(){
     let html=""
     notesObj.forEach(function(element,index){
     html +=`
-    <div class="cardTxt my-3 mx-2" style="width: 25rem;">
+    <div class="cardTxt my-3 mx-2" style="width: 20%;">
         <div class="card-body">
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Note ${index+1}</label>
