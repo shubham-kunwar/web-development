@@ -1,67 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module-3</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milaap</title>
+  <!-- Updates In Every 3 days-->
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/b1d94949f4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar" id="top">
-        <div class="container-fluid">
-      
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">rdf
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-            <a class="navbar-brand" href="#">Food, LLC</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="https://milaap.org/"><img src="Milaap.jpg" alt="milaap"
+          style="height: 34px; width: 100px;margin-top: 0%;margin-left:0px"></a>
+      <div class="header-tagline">
+        <a href="https://milaap.org/" style="color: #5d5d5d; position:relative;right:0px">
+          India’s largest crowdfunding site. Over
+          Rs. 1100 Crores + raised.
+        </a>
+      </div>
+
+      <a  style="position: absolute;right:55px;top:60px" class="text-secondary" style="text-decoration:none" href="https://milaap.org/users/sign-in">Join Us / Login</a>
+      <div class="btn-group" >
+        <button style="position: absolute;right: 0px; top: 22px;"  type="button" class="btn " data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+          <li><button class="dropdown-item" type="button">About Open</button></li>
+          <li><button class="dropdown-item" type="button">Start a campaign</button></li>
+          <li><button class="dropdown-item" type="button">FAQs</button></li>
+        </ul>
+      </div>
+
+
+    </div>
+  </nav>
+<div class="campaign-no-overlay " style="margin-top: 30px;" >
+
+  <div class="container">
+    <div class="col-md-10 col-centered">
+      <div class="urgent-flag">
+        Milaap will not charge any fee on your donation to this campaign.
+      </div>
+    </div>
+  </div>
+  
+  <div class="container" id="campaign-show-page">
+    <div class="clearfix">
+      <h2 class="campaign-title">Support Shilpa Negi Recover From Colon Cancer</h2>
+    </div>
+    <div class="campaign-banner">  
+      <div class="carousel-card campaign-banner-carousel" id="campaign-carousel">
+        <div id="campaignCarousel" class="carousel slide" data-interval="4000" data-ride="carousel" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+          <div class="carousel-inner">
+    
+            <!-- Carousel items -->
+              <div class="item active">
+                <div class="banner-wrapper campaign-cover-image image-772752">
+                  <img alt="Support Shilpa Desari Recover From Colon Cancer" class="img-responsive" height="452" width="603" src="/medical_1553587798_1586086793.jpg">
+                </div>
+              </div>
           </div>
-      
-          <div class="collapse" id="myNavbar">
-            <ul class="nav navbar-nav visible-xs">
-              <li><a class="menu-item" href="#">Chicken</a></li>
-              <li><a class="menu-item" href="#">Beef</a></li> 
-              <li><a class="menu-item" href="#">Sushi</a></li> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="footer-new">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xs-12">
+          <div class="social-links">
+            <p class="h3 text-bold">CONNECT WITH US</p>
+            <a href="https://www.facebook.com/milaap" class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              <!-- <span class="sr-only">Milaap on Facebook</span> -->
+            </a>
+            <a href="https://www.twitter.com/milaapdotorg" class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              <!-- <span class="sr-only">Milaap on Twitter</span> -->
+            </a>
+            <a href="https://www.linkedin.com/company/909539" class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              <!-- <span class="sr-only">Milaap on LinkedIn</span> -->
+            </a>
+            <a href="https://plus.google.com/+milaap" class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+              <!-- <span class="sr-only">Milaap on Google Plus</span> -->
+            </a>
+            <a href="https://www.youtube.com/milaapdotorg" class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+              <!-- <span class="sr-only">Milaap on YouTube</span> -->
+            </a>
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="footer-links">
+          <div class="col-md-3 col-sm-4 col-xs-5 footer-links-section">
+            <h2 class="h4">About Milaap</h2>
+            <ul class="list-unstyled" >
+              <li><a href="/about-us/overview" style="text-decoration: none;">About us</a></li>
+              <li><a href="/about-us/team" style="text-decoration: none;">Team</a></li>
+              <li><a href="/about-us/impact" style="text-decoration: none;">Our impact</a></li>
+              <li><a href="/press" style="text-decoration: none;">Press &amp; Media</a></li>
+              <li><a href="/milaap-openings" style="text-decoration: none;">Careers</a></li>
             </ul>
           </div>
-      
-        </div>
-      </nav>
-      
-      <h1 class="main-title">Our Menu</h1>
-      
-      
-      
-      <div class="row">
-      
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="content-box">
-            <p class="item-name">Chicken</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia esse atque laborum recusandae sed et minus qui non impedit odio. Nisi, quidem reiciendis? Aut voluptatem vero praesentium nobis? Adipisci voluptate suscipit molestiae quisquam commodi nostrum laborum soluta vero nisi. Quod eligendi ea omnis repellat veniam? Voluptatum, saepe itaque perspiciatis sunt error ea nulla veniam, dolor deserunt maiores aperiam voluptas assumenda neque voluptates incidunt vero impedit sit vitae eius? Tempora ab ex ad incidunt, assumenda recusandae non esse neque ipsum dolorum.<a href="#top">(Back to Top)</a></p>
+          <div class="col-md-3 col-sm-4 col-xs-5 footer-links-section">
+            <h2 class="h4">Open</h2>
+            <ul class="list-unstyled">
+              <li><a href="/fundraisers/new" style="text-decoration: none;">Start a campaign</a></li>
+              <li><a href="/crowdfunding/fundraisers" style="text-decoration: none;">Explore all campaigns</a></li>
+              <li><a href="/crowdfunding/pricing" style="text-decoration: none;">Pricing</a></li>
+              <li><a href="https://faq.milaap.org/" style="text-decoration: none;">FAQs</a></li>
+            </ul>
           </div>
-        </div>
-      
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="content-box">
-            <p class="item-name">Beef</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus soluta cupiditate rerum. Hic, fugit itaque! Ex laborum excepturi eligendi accusantium placeat eaque ea enim libero cum. Excepturi quae sequi magnam sint expedita adipisci rem est, suscipit nemo a ex magni nulla commodi sunt dolor, voluptas et qui quam perferendis, saepe voluptates. Dignissimos unde vitae debitis at cumque exercitationem sint eius nesciunt, consectetur omnis distinctio itaque aliquid similique quos odit temporibus.<a href="#top">(Back to Top)</a></p>
+          <div class="col-md-3 col-sm-4 col-xs-5 footer-links-section">
+            <h2 class="h4">Categories</h2>
+            <ul class="list-unstyled">
+              <li><a href="/crowdfunding/fundraisers" style="text-decoration: none;">All categories</a></li>
+              <li><a href="/crowdfunding/fundraisers?filter[category_id]=3" style="text-decoration: none;">Children</a></li>
+              <li><a href="/crowdfunding/fundraisers?filter[category_id]=5" style="text-decoration: none;">Education</a></li>
+              <li><a href="/crowdfunding/fundraisers?filter[category_id]=7" style="text-decoration: none;">Emergencies</a></li>
+              <li><a href="/crowdfunding/fundraisers?filter[category_id]=14" style="text-decoration: none;">Sports</a></li>
+              <li><a href="/crowdfunding/fundraisers?filter[category_id]=16" style="text-decoration: none;">Women</a></li>
+            </ul>
           </div>
-        </div>
-      
-      
-        <div class="col-lg-4 col-md-12 col-sm-12">
-          <div class="content-box">
-            <p class="item-name">Sushi</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus est nulla a at odio esse blanditiis aliquam maxime sequi amet in itaque laborum quaerat asperiores quasi qui dolor, odit consequatur illum perferendis, nam fugiat aspernatur consequuntur. Consectetur, optio dolor nam sint obcaecati iste possimus. Facere hic odit non perspiciatis ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, possimus, fugiat nihil modi sed, necessitatibus molestiae cum obcaecati nemo iusto non id deleniti cupiditate sequi culpa laborum sit? Non dicta officia inventore quam. Provident, modi quaerat eos officiis esse adipisci, in exercitationem blanditiis fugit voluptatum, illo facilis dicta fugiat id minima et dignissimos aut rerum vel dolore deleniti. Velit praesentium fuga nihil facilis doloremque eum aspernatur quaerat numquam iusto, voluptates alias error enim. Quas dignissimos praesentium doloribus rem inventore odit, voluptates aut, ullam nisi fugit tempora, magni velit incidunt! Adipisci a eaque tempore facilis, voluptas sit voluptates earum possimus amet?<a href="#top">(Back to Top)</a></p>
+          <div class="col-md-4 col-sm-8 col-xs-6 footer-links-section">
+            <h2 class="h4">Contact us</h2>
+            <ul class="list-unstyled">
+              <li>
+                <p>Milaap Social Ventures India Pvt. Ltd.<br>ClayWorks Create - building,11th KM Create Campus,Arakere
+                  Bannerghatta Rd,<br>Bangalore, Karnataka, India 560076</p>
+              </li>
+              <li><a href="https://goo.gl/maps/J2NjE" style="text-decoration: none;" target="_blank"><i class="fa fa-map-marker"></i> Location on
+                  Map</a></li>
+              <li><i class="fa fa-envelope"></i> <a
+                  href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=feedback@milaap.org&amp;su=Mail from Our Site"
+                  target="_blank" style="text-decoration: none;">feedback@milaap.org</a></li>
+            </ul>
           </div>
+
+
         </div>
-      
       </div>
-      
+      <div id="page-footer" class="page-footer" role="contentinfo">
+        <div class="col-md-6 no-left-pad">
+          <nav>
+            <ul class="list-unstyled list-inline">
+              <li><a style="text-decoration: none;" href="/contact-us">Contact Us</a></li>
+              <li><a style="text-decoration: none;" href="/privacy-policy">Privacy</a></li>
+              <li><a style="text-decoration: none;" href="/about-us/terms-and-conditions">Terms and conditions</a></li>
+              <li><a style="text-decoration: none;" href="/security">Security</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-6 no-left-pad">
+          <p class="copyright">© 2010 - 2021 milaap.org. All rights reserved.</p>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- <div data-reactroot="" class="support-popover-container"><a href="javascript:void(0)" class="popover-btn"><img src="//assets.milaap.org/assets/support/support-026639827351db2f76f01cb2405a636907a4b4ea56506f138364b541f9518a4d.png" alt="support">react-text: 4 /react-text<span class="support-link">Contact us</span></a><div id="email-popup-container" class="email-popup-container"></div><div id="email-thank-you-container" class="email-thank-you-container"></div></div> -->
+
+
 </body>
+
 </html>
